@@ -1,0 +1,403 @@
+.side-bg-color {
+    background: var(--bg-real-bg-theme) !important;
+}
+
+.header-rounded {
+    border-radius: 16px 0px 0px 0px;
+}
+
+.user-picture {
+    width: 38px !important;
+    height: 38px !important;
+}
+
+.text-color {
+    color: var(--text-color) !important;
+}
+
+.text-color-secondary {
+    color: var(--text-color-secondary) !important;
+}
+
+.card-bg {
+    background: var(--card-bg) !important;
+}
+
+.card-border-start {
+    border-left: 2px solid #E0E0EB
+}
+
+.select-bg {
+    background-color: #F1F3F5 !important;
+}
+
+.select-rounded {
+    border: 1px solid #E0E0EB !important;
+}
+
+.invoice-num {
+    border: 1px dashed;
+}
+
+.primary-dark {
+    width: 32px;
+    height: 32px;
+    background: #394346
+}
+
+.nav-pills .theme-tab.active, .nav-pills .show>.nav-link {
+    background-color: #394346;
+    color: var(--bs-white);
+    transition: 0.5s ease;
+}
+
+.nav-pills .theme-tab {
+    color: #394346;
+    background-color: var(--bs-white);
+}
+
+.side-chart {
+    background-color: red;
+}
+
+.amount {
+    border-radius: 5px;
+    border: 1px dashed #E0E0EB;
+}
+
+.mt--50 {
+    margin-top: -50px;
+}
+
+.btn-hover-dark-light:hover {
+    background-color: #394346;
+    color: var(--bs-white);
+    transition: 0.5s ease;
+}
+
+.btn-hover-dark-light:active {
+    background-color: #394346;
+    color: var(--bs-white);
+    transition: 0.5s ease;
+}
+
+.btn-hover-dark-light {
+    color: #394346;
+    background-color: var(--bs-white);
+}
+
+.active-client {
+    width: 10px;
+    height: 10px;
+    background: var(--active-color);
+    content: "";
+}
+
+.inactive-client {
+    width: 10px;
+    height: 10px;
+    background: var(--inactive-color);
+    content: "";
+}
+
+.no-coach {
+    width: 10px;
+    height: 10px;
+    background: var(--no-coach-color);
+    content: "";
+}
+
+.draft {
+    width: 10px;
+    height: 10px;
+    background: var(--draft-color);
+    content: "";
+}
+.project-complete {
+    width: 10px;
+    height: 10px;
+    background: var(--project-complete);
+    content: "";
+}
+
+.coachee-invite {
+    width: 10px;
+    height: 10px;
+    background: var(--coachee-invite);
+    content: "";
+}
+
+.partially-paid {
+    width: 10px;
+    height: 10px;
+    background: var(--partially-paid);
+    content: "";
+}
+
+.unpaid {
+    width: 10px;
+    height: 10px;
+    background: var(--unpaid);
+    content: "";
+}
+
+.fully-paid {
+    width: 10px;
+    height: 10px;
+    background: var(--fully-paid);
+    content: "";
+}
+
+#kt_docs_google_chart_pie {
+    background-color: transparent !important;
+}
+
+.custom-separator {
+    background: #E0E0EB;
+    height: 1px;
+}
+
+.shadow-0 {
+    box-shadow: none !important;
+}
+
+.menu-btn:hover {
+    border-right: 5px solid #FFE9D8;
+    background: linear-gradient(90deg, #FF790E 0%, #FFAF70 100%);
+    /* transition: 0.5s ease; */
+}
+
+.shadow-outer-card {
+    box-shadow: 0px 5px 40px 0px rgba(166, 175, 191, 0.30);
+}
+
+[data-kt-app-layout=light-sidebar] .app-sidebar .menu .menu-item .menu-link.active {
+    /* border-right: 5px solid #FFE9D8; */
+    background: linear-gradient(90deg, #FF790E 0%, #FFAF70 100%);
+    transition: 0.5s ease;
+    color: #fff;
+}
+
+.nav-pills .client-nav.active {
+    background: transparent !important;
+    font-weight: 700;
+    transition: color .2s ease;
+}
+
+.nav-pills .client-nav.active::after {
+    content: "";
+    display: block;
+    background-color: #FF790E;
+    height: 4px;
+    margin-top: 0.5rem;
+    transition: 0.5s ease;
+    border-radius: 8px;
+}
+
+.btn-orange {
+    background: linear-gradient(90deg, #FF790E 0%, #FFAF70 100%);
+}
+
+.btn-padding {
+    padding: 0.55rem 1.25rem;
+}
+
+.client-dot {
+    background-color: #E0E0EB;
+    width: 6px;
+    height: 6px;
+}
+
+.support-top-border{
+    border-top: 0.5px solid #E0E0EB;
+}
+
+.status-bar{
+    background-color: var(--inactive-color);
+    content:"";
+    height:1rem;
+    width:100%
+}
+
+.active-status-bar{
+    background-color: var(--active-color);
+    width:20%;
+}
+
+.inactive-status-bar{
+    background-color: var(--inactive-color);
+    width:70%
+}
+
+.nocoach-status-bar{
+    background-color: var(--no-coach-color);
+    width:5%
+}
+
+.draft-status-bar{
+    background-color: var(--draft-color);
+    width:5%
+}
+
+.project-details {
+    width: 24rem;
+}
+
+.status-bar{
+    background-color: var(--inactive-color);
+    content:"";
+    height:1rem;
+    width:100%
+}
+
+.project-active-status-bar{
+    background-color: var(--active-color);
+    width:20%;
+}
+
+.project-inactive-status-bar{
+    background-color: var(--inactive-color);
+    width:60%
+}
+
+.project-nocoach-status-bar{
+    background-color: var(--no-coach-color);
+    width:5%
+}
+
+.project-draft-status-bar{
+    background-color: var(--draft-color);
+    width:5%
+}
+
+.project-complete-status-bar{
+    background-color: var(--project-complete);
+    width:10%
+}
+
+.invoice-sent-status-bar{
+    background-color: var(--invoice-sent);
+    width:10%
+}
+.draft-invoice-status-bar{
+    background-color: var(--draft-invoice);
+    width:10%
+}
+.no-invoice-invoice-bar{
+    background-color: var(--no-invoice-invoice);
+    width:10%
+}
+
+.partially-paid-status-bar{
+    background-color: var(--partially-paid);
+    width:10%
+}
+.fully-paid-status-bar{
+    background-color: var(--fully-paid);
+    width:10%
+}
+.unpaid-status-bar{
+    background-color: var(--unpaid);
+    width:10%
+}
+
+.no-invoice{
+    background-color: var(--no-invoice-invoice);
+    width: 10px;
+    height: 10px;
+    content: "";
+}
+.invoice-sent{
+    background-color: var(--invoice-sent);
+    width: 10px;
+    height: 10px;
+    content: "";
+}
+.draft-invoice{
+    background-color: var(--draft-invoice);
+    width: 10px;
+    height: 10px;
+    content: "";
+}
+
+.play-btn{
+    width: 20%;
+    bottom: 6.3rem;
+    left: 0.7rem;
+    cursor:pointer;
+}
+
+.page-header{
+    background-image: url("../media/other/page-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.client-active{
+    background-color:var(--active-color);
+    width:10px;
+    height: 10px;
+}
+
+.user-picture-24{
+    width:24px;
+    height:24px;
+}
+
+.sceduled-circle {
+    width: 10px;
+    height: 10px;
+    background: var(--inactive-color);
+}
+
+.flag-sm{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-md{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-play-btn{
+    width: 60px;
+    height: 60px;
+    left: 3%;
+    bottom: 8%;
+}
+
+
+.star{
+    color:gold ;
+}
+
+.lh-rate{
+    line-height: 2.35 !important;
+}
+
+.w-24rem{
+    width:24rem;
+}
+
+.w-15rem{
+    width:15rem;
+}
+
+.coachee-profile{
+    width: 120px;
+    height:120px;
+}
+
+.perfect-height{
+    height: calc(100% - 12px);
+}

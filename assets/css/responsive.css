@@ -1,0 +1,30 @@
+@media screen and (max-width:576px){
+    .wx-sm-100{
+        width:100% !important;
+    }
+    .mtx-sm-5{
+        margin-top:1.25rem !important
+    }
+    .header-rounded{
+        border-radius:0px;
+    }
+    .card-border-start{
+        border-left: 0px solid #E0E0EB  !important;
+    }
+    .card-border-sm-bottom{
+        border-bottom: 2px solid #E0E0EB;
+    }
+    .project-details{
+        width: 100%;
+    }
+    
+.coachee-profile{
+    width: 70px !important;
+    height:70px !important;
+}
+}
+@media screen and (max-width:992px){
+    [data-kt-app-layout=light-sidebar] .app-sidebar{
+        background: linear-gradient(90deg, #1850BB 0%, #0B99FF 14.37%), linear-gradient(90deg, #315395 0%, #0B99FF 14.37%), linear-gradient(90deg, #F0F1F4 0%, #F0F1F4 43.02%, #FF790E 100%), #F0F1F4;
+    }
+}
